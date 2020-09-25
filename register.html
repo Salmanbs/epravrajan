@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> E - PravRajan </title>
+        <meta name="viewport" comtent="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/640f233f54.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+        <style>   
+        .container {
+                 width: 100%;
+                height: 100%;
+                font-family: 'Epilogue', sans-serif;
+            }
+
+.conter {
+                 width: 100%;
+                height: 100%;
+            }
+
+
+body {font-family: font-family: 'Epilogue', sans-serif}
+form {border: 3px solid #edf9fc;}
+
+input[type=number], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #edf9fc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #005792;
+  color: #edf9fc;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #d1f4fc;
+  color: #005792;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+  .cont{
+    width: 100%;
+    height: 100%;
+
+  }
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <img src="titlebar.png" width="100%" height="100%">
+    </header>
+
+<div class="container">
+<div class="cont">
+
+  <hr class="featurette-divider">
+
+<h2 style="color: #005792;text-align: center;">Sign UP or Register</h2>
+
+
+<hr class="featurette-divider">
+
+
+
+  <div class="container">
+    <form class="" action="/register.html" method="post">
+    <label for="pnum"><b>Phone Number</b></label>
+    <input type="number" placeholder="Enter Phone number" name="pnum" required>
+
+    <b>Category</b><br>
+    <input type="radio" id="worker" name="category" value="worker" required>
+    <label for="worker">Employee</label><br>
+    <input type="radio" id="business" name="category" value="business" required>
+    <label for="business">Employer</label>
+
+<p>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Sign Up / Register</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+</p>
+</form>
+  </div>
+
+
+  <div class="container" style="background-color: #edf9fc">
+    <a href="index.html">
+    <button type="button" class="cancelbtn">Cancel</button>
+    </a>
+    <span class="psw"> Already a member? <a href="login.html"> Login HERE</a></span>
+  </div>
+
+</div>
+
+  </div>
+  <hr class="featurette-divider">
+
+
+  <hr class="featurette-divider">
+  <footer class="footer">
+  <div class="fsub" id="fsub1">
+      <div class="col-sm-12 col-md-6">
+      <h3 class="fh">For Enquiries</h3>
+      <p><span class="text-muted">Contact us at </span><br><u><a href = "mailto: info.kehtech@gmail.com" style="color: aliceblue;"> info.kehtech@gmail.com </a></u>
+          <br><span class="text-muted">Call us at </span><br>
+          <a href="tel: +91-9342412841" style="color: aliceblue;">+91-9342412841</a></p>
+          </p>
+      <p>© Copyrights. All rights reserved</p>
+  </div>
+  </div>
+  <div class="fsub" id="fsub2">
+      <div class="col-sm-12 col-md-6">
+      <h3 class="fh">Social links</h3>
+      <ul class="flist">
+          <li><a href="https://www.instagram.com/epravrajan" style="color: aliceblue;"><i class="fab fa-instagram">Instagram</i></a></li>
+          <li><a href="https://www.linkedin.com/company/keh-technologies" style="color: aliceblue;"><i class="fab fa-linkedin">LinkedIn</i></a></li>
+          <li><a href="https://twitter.com/pravrajan" style="color: aliceblue;"><i class="fab fa-twitter">Twitter</i></a></li>
+          </ul>
+  </div>
+  </div>
+  
+  
+  </footer>
+  
+  </body>
+  
+  
+  </html>
