@@ -1,0 +1,617 @@
+/*------------------------------------------------------------The Body ---------------------------------------------------------------------------*/
+body{
+    background-color: #f7f7f7;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+@media( max-width : 1000px)
+{
+    body{
+        width: 100%;
+    }
+}
+
+/* -------------------------------------------------------Navigation Bar--------------------------------------------------------------------------*/
+.navbar{
+    background-color: #ffffff;
+    font-family: 'Epilogue', sans-serif;
+    width: 100%;
+    margin: 0px;
+    color: #0F4C75;
+    padding-bottom: 33px;
+    box-shadow: 0px 1px 5px black;
+}
+
+/* ---------------------------------------------------------Logo--------------------------------------------------------------------------------- */
+.logo{
+    margin-right: 60px;
+    position: relative;
+    top: 20px;
+}
+
+/*-------------------------------------------------------Navbar Links--------------------------------------------------------------------------- */
+.navbar a{
+    font-family: 'Epilogue', sans-serif;
+    color: #0F4C75;
+    text-decoration: none;
+    padding: 0px 50px;
+    margin-bottom: 10px;
+    clear: right;
+}
+
+/*--------------------------------------------------------Login Panel--------------------------------------------------------------------------- */
+.panel{
+    float: right;
+    position: relative;
+    padding: 52px 10px 31px ;
+    background-color: #1B262C;
+    margin-top:auto;
+    margin-bottom: auto;
+    box-shadow: 0px 1px 5px black;
+}
+
+#login{
+    padding: 15px 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin:auto 30px;
+}
+
+#register{
+    padding: 15px 50px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: #1b262c;
+    margin:auto 30px ;
+}
+
+/* ---------------------------------------------------------------Banner-----------------------------------------------------------------------*/
+#banner{
+    width: 70.2515%;
+    z-index: -1;
+    position: relative;
+    top: 0px;
+    left:-3px;
+}
+
+#heading{
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+#box{
+    background-color: #1B262C;
+    height:530.5px ;
+    width: 456px;
+    float: right;
+    position: relative;
+    top:-535px;
+    z-index: -1;
+}
+
+#flag{
+    width: 80%;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+#hash{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 500;
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+/*------------------------------------------------------------Blocks Common Properties-----------------------------------------------------------*/
+.blocks{
+    background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0F4C75;
+    font-size: 40px;
+}
+
+.sub{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #707070;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+}
+
+.learn{
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color:white; 
+    background-color: #0f4c75;
+    cursor: pointer;
+    margin-right: 30px;
+}    
+/*-------------------------------------------------------------------Block 1---------------------------------------------------------------------*/
+#content1{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: -3px;
+
+   
+}
+
+#content1 > h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #0F4C75;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+#d1{
+    width: 30%;
+    position: relative;
+    left: 400px;
+    top: -100px;
+}
+
+#im1{
+    width: 30%;
+    position: relative;
+    left:1000px ;
+    top: -310px;
+}
+
+/*---------------------------------------------------------------------Block 2------------------------------------------------------------------*/
+#content2{
+    height: 750px;
+    width: 40%;
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+#im2{
+    width: 80%;
+    margin: 50px;
+}
+
+/*---------------------------------------------------------------------Block 3------------------------------------------------------------------*/
+#content3{
+    float: right;
+    width: 40%;
+    height: 750px;
+    width: 40%;
+    margin:30px;
+    padding: 30px 50px;
+    position: relative;
+    top: -870px;
+}
+
+#im3{
+    width: 80%;
+    margin: 50px;
+}
+
+/*---------------------------------------------------------------------Block 4-------------------------------------------------------------------*/
+#content4{
+    height: 250px;
+    width: 90%; 
+    margin: 30px auto;
+    padding-left:50px;
+    padding-right: 50px; 
+}
+
+
+
+#hd4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #707070;
+    font-size: 30px;
+    position: relative;
+    top: -40px; 
+}
+
+#sd4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0F4C75;
+    font-size: 40px;
+    position: relative;
+    top: -80px;
+}
+
+#d4{
+    position: relative;
+    top: -80px;
+    text-align: justify;
+    width: 40%;
+}
+
+#l4{
+    position: relative;
+    top: -280px;
+}
+
+#im4{
+    width: 35%;
+    overflow: auto;
+    position: relative;
+    left: 700px;
+    top: -262.5px;
+}
+
+/*----------------------------------------------------------------Block 5-----------------------------------------------------------------------*/
+
+#content5{
+    height: 250px;
+    width: 90%; 
+    margin: 30px auto;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+#hd5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #707070;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+}
+
+#sd5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0F4C75;
+    font-size: 40px;
+    position: relative;
+    top: -80px;
+}
+
+#d5{
+    position: relative;
+    top: -80px;
+    text-align: justify;
+    width: 40%;
+}
+
+#l5{
+    position: relative;
+    top: -280px;
+}
+
+#im5 {
+    width: 35%;
+    position: relative;
+    left: 700px;
+    top: -260px;
+}
+
+/*---------------------------------------------------------------Block 6------------------------------------------------------------------------*/
+
+#content6{
+    height: 450px;
+    width: 90%; 
+    margin: 30px auto;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+#hd6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #515a5f;
+    font-size: 40px;
+    position: relative;
+    top: -30px;
+}
+
+.hdd{
+    color: #0f4c75;
+}
+
+#d6{
+    text-align: justify;
+    width: 50%;
+}
+
+.img-out{
+    float: right;
+    background-color: #f7f7f7;
+    width: 42%;
+    height: 400px;
+    position: relative;
+    left: 70px;
+    top: -340px;
+    box-shadow: 0px 1px 5px black inset;
+}
+
+.cover{
+    float: right;
+    width: 20px;
+    height: 450px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    position: relative;
+    left: 648px;
+    top: -350px;
+    
+    z-index: +1;
+}
+
+.img-in{
+    float: right;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 5px black;
+    width: 35%;
+    padding: 20px;
+    position: relative;
+    top: -320px;
+    left: 642px;
+}
+
+#im6{
+    display: block;
+    width: 100%;
+    
+}
+
+/*--------------------------------------------------------------------Block 7-------------------------------------------------------------------*/
+
+#content7{
+    height: 650px;
+    width: 100%; 
+    margin: 30px auto;
+    padding-top:40px;
+   
+}
+
+
+.top{
+    text-align: center;
+    color: #0F4C75;
+    width: 50%;
+    overflow: hidden;
+}
+
+.cons{
+    width: 25%;
+    text-align: justify;
+    font-size: 15px;
+    border: 2px solid #0F4C75;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.top{
+    text-align: center;
+    color: #0F4C75;
+    width: 50%;
+    overflow: hidden;
+   
+
+}
+
+/*--------------------------------------------------------------------Sub Block 1---------------------------------------------------------------*/
+#con1{
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
+#top1{
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: -50px;
+    background-color: #ffffff;
+    padding: 0px;
+
+}
+#chd1{
+    color: #0F4C75;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+   
+}
+#schd1{
+    color: #515a5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#cm1{
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+    left: 50px;
+    top: 40px;
+}
+
+#lc1{
+    position: relative;
+    left: 120px;
+    
+}
+
+/*---------------------------------------------------------------Sub Block 2------------------------------------------------------------------*/
+
+#con2{
+    position: relative;
+    left: 530px;
+    bottom: 710px;
+}
+
+#top2{
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: -50px;
+    background-color: #ffffff;
+    padding: 0px;
+
+}
+#chd2{
+    color: #0F4C75;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+   
+}
+#schd2{
+    color: #515a5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#cm2{
+    display: block;
+    position: relative;
+    left: 90px;
+}
+
+#lc2{
+    position: relative;
+    left: 120px;
+}
+
+
+/*--------------------------------------------------------Sub Block 3----------------------------------------------------------------------------*/
+
+#con3{
+    position: relative;
+    left: 1030px;
+    bottom: 1390px;
+}
+
+#top3{
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: -50px;
+    background-color: #ffffff;
+    padding: 0px;
+
+}
+#chd3{
+    color: #0F4C75;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+   
+}
+#schd3{
+    color: #515a5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#cm3{
+    display: block;
+    position: relative;
+    left: 90px;
+}
+
+#lc3{
+    position: relative;
+    left: 120px;
+}
+
+/*---------------------------------------------------------------------Footer------------------------------------------------------------------*/
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color:#1B262C;
+}
+
+.fsub{
+    font-family:'Epilogue', sans-serif ;
+    color: #ffffff;
+}
+
+.fh{
+    font-family: 'Oswald', sans-serif ;
+}
+
+.flink{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.fh{
+    color: #515a5f;
+}
+
+.flist{
+    list-style: none;
+    position: relative;
+    right: 40px;
+}
+#fsub1{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+#fsub2{
+    float: right;
+    position: relative;
+    bottom: 120px;
+    right: 1000px;
+}
+
+.line{
+    position: relative;
+    left: 50px;
+    top: 110px
+}
+
+.CR{
+    position: relative;
+    top: 160px;
+    left: 600px;
+    font-family :'Epilogue', sans-serif ;
+    color: #ffffff;
+}
