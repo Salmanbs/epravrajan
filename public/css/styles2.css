@@ -1,0 +1,325 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	box-sizing: border-box;
+    background-color: #f7f7f7;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;    
+}
+/* -------------------------------------------------------Navigation Bar--------------------------------------------------------------------------*/
+.navbar{
+	padding: 0.4rem;
+    background-color: #ffffff;
+    font-family: 'Epilogue', sans-serif;
+    width: 100%;
+    margin: 0px;
+    color: #0F4C75;    
+    box-shadow: 0px 1px 5px black;
+}
+
+
+
+/* ---------------------------------------------------------Logo--------------------------------------------------------------------------------- */
+
+
+/*-------------------------------------------------------Navbar Links--------------------------------------------------------------------------- */
+#menu{
+    padding: 0 0;
+    margin: 0 0;
+}
+.navbar nav li{
+	padding: 20px 20px;
+	font-family: 'Epilogue', sans-serif;
+    color: #0F4C75;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;   
+}
+.nav-link{
+    font-size: 20px;
+}
+/*--------------------------------------------------------Login Panel--------------------------------------------------------------------------- */
+.panel{
+    float: right;
+    position: relative;
+    padding: 52px 0 25px ;
+    background-color: #1B262C;
+    margin-top:auto;
+    margin-bottom: auto;
+    box-shadow: 0px 1px 5px black;
+}
+#login{
+    padding: 15px 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin:auto 30px;
+}
+
+#register{
+    padding: 15px 50px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: #1b262c;
+    margin:auto 30px ;
+}
+/*Commomn*/
+.padding{
+	padding-bottom: 1.5rem
+}
+/* ---------------------------------------------------------------Banner - Section 1-----------------------------------------------------------------------*/
+.sec-1{
+	box-sizing: border-box;;
+	padding: 5px 5px;
+	margin: 0 0;	
+}
+/*.content1{
+	padding: 5px 5px;
+	margin: 0 0;
+}*/
+#banner{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    top: 0px;
+    left:-3px;
+}
+#banner-left{
+	padding: 0 0;
+	margin: 0 0;
+}
+
+#heading{
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 35%;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+#box{
+
+    background-color: #1B262C;  
+    width: auto;  
+    padding: 0 0;
+    margin: 0 0;     
+}
+
+#flag{    
+    padding: 0 0;    
+    margin: 0 ;   
+    position: relative;   
+}
+
+#hash{
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 60px;
+    font-size: 2vw;
+    position: relative;
+    padding: 0 0;
+    margin: 0 0;
+    /*left: 60px;
+    top: 80%;
+    z-index: 999;*/
+}
+
+/*_____________________________________________________Common____________________________________*/
+.description{
+    text-align: justify;
+}
+
+.heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #0F4C75;
+    font-size: 40px;
+}
+
+.sub{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #707070;
+    font-size: 30px;
+    position: relative;
+    top: auto;
+}
+
+.learn{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color:white; 
+    background-color: #0f4c75;
+    cursor: pointer;
+    margin-right: 30px;
+    float: right;
+} 
+/*Section 2*/
+.content2 h1{
+	font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #0F4C75;
+}
+/*---------------------------------------------------------------------------------------------*/
+.card{
+	box-sizing: border-box;    
+    background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 20px;
+    border-radius: 0;
+}
+.container-fluid{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 5px 5px;
+    margin: 10px 5px;
+}
+
+/*Section 2*/
+.sec-2{
+	background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+/*Section 5*/
+.sec-5{
+	background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+/*Section 6*/
+.sec-6{
+	background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+}
+/*Section 7*/
+.sec-7{
+	background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+
+/*Section 8*/
+
+.sec-8{
+	background-color:white;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    box-shadow: 0px 1px 5px black;
+    padding: 30px;
+}
+.conhead{
+	color: #0F4C75;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.sconhead{
+	color: #515a5f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+.conpar{
+
+}
+
+/*Footer*/
+.f{
+    width: 100%;
+    height: auto;
+    background-color:#1B262C;
+    }
+.fh{
+    font-family: 'Oswald', sans-serif ;
+    color: #515a5f;
+}
+#contact{
+    color: antiquewhite;
+}
+.line{
+    position: relative;
+    color: #ffffff;    
+}
+
+.CR{
+    position: relative;    
+    font-family :'Epilogue', sans-serif ;
+    color: #ffffff;
+}
+
+/*Media Queries*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .panel{
+        display: block;
+        width: 100%;
+        float: none;
+    } 
+
+}
+@media (max-width:992px)
+{
+    .panel{
+        display: block;
+        width: 100%;
+        float: none;
+    } 
+
+}
+
+@media (max-width:768px)
+{
+    
+}
+
+@media (max-width:576px)
+{
+    
+}
