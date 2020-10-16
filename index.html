@@ -27,50 +27,95 @@
 
 <body>
 
-    <nav class="navbar">
-        <img class="logo"src="IMAGES/E-Prav Logo.svg" alt="E-PravRajan">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="list_mi.html">Worker Democracies</a>
-        <a href="list_co.html">Vacancies</a>
-        <div class="panel">
-            <a id="login" href="login.html">Login</a>
-            <a id="register" href="register.html">Register</a>
+    <!--         Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="public/Asset 5.png" alt="E-PravRajan" width="100" height="100"></a>
+            <!-- Hamburger Icon -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu Items-->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list_mi.html">Worker Democracies</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="list_co.html">Vacancies</a></li>
+                </ul>
+            </div>
+<!--            Login Register Panel-->
+            <div class="panel">
+                <a id="login" href="login.html">Login</a>
+                <a id="register" href="register.html">Register</a>
+            </div>
         </div>
     </nav>
-    <img id="banner" src="images/Group 8.svg" alt="Image">
-    <h1 id="heading">ONE STOP FOR <br> BLUE 
-        COLLAR MIGRATION IN INDIA</h1>
-    <div id="box">
-     <img id="flag" src="images/Group 5.svg" alt="">
-     <h1 id="hash">#atmanirbharshramik<br>#badegarozgar</h1>
-    </div> 
 
-    <div id="content1" class="blocks">
-        <h1>13.9 Crore</h1>
-        <p class="description" id="d1">
-            There are approximately 13.9 crore internal 
-            in India out of which 4 crore have 
-            been impacted due to loss of jobs. This 
-            accounts to approximately 29% of the total 
-            number of migrants. This is the heartbreaking 
-             scenario of migrant workers in India.
+<!--    Section 1-->
+   <section class="sec-1">
+    <div class="container-fluid">
+        <div class="row content1">
+
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" id="banner-left">
+                <img id="banner" src="public/Group 8.svg" alt="Image" class="img-fluid float-left">
+                <h1 id="heading">ONE STOP FOR <br> BLUE COLLAR MIGRATION IN INDIA</h1>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" id="box" >
+                <img id="flag" src="public/Group 5.png" alt="" class="img-fluid float-right">
+                <h1 id="hash"> #atmanirbharshramik <br> #badegarozgar </h1>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!--       Section 2-->
+<section class="sec-2">
+       <div class="container-fluid">
+        <div class="row content2">
+        
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">            
+            <h1>13.9 Crore</h1>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-4">
+            <p class="description" id="d1">There are approximately 13.9 crore internal in India out of which 4 crore have been impacted due to loss of jobs. This accounts to approximately 29% of the total number of migrants. This is the heartbreaking scenario of migrant workers in India.
         </p>
-        <img src="images/Mask Group 1.svg" alt="" id="im1">
+       </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <img src="public/Mask Group 1.svg" alt="" id="im1">
     </div>
 
-    <div id="content2" class="blocks">
-        <h1 class="heading" id="hd2">Register With Us</h1>
-        <h1 class="sub" id="sd2">To open up Doors for opportunities</h1>
-        <p class="description" id="d2">
-            In the present situation, India is facing a 
-            slowdown in the economy. During any 
-            economic crisis, the worst hit are 
-            always the economically weaker 
+       </div>
+   </div>
+       </section>
+
+<!--       Section 3-->
+      <section class="sec-3">
+       <div class="container-fluid padding">
+        <div class="row text-center content">
+         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+           <div class="card">
+               <h1 class="heading" id="hd2">Register With Us</h1>
+               <h1 class="sub" id="sd2">To open up Doors for opportunities</h1>
+               <p class="description" id="d2">
+            In the present situation, India is facing a
+            slowdown in the economy. During any
+            economic crisis, the worst hit are
+            always the economically weaker
             sections like migrant workers. Register with us and open doors to opportunities. Helping you get a job is our duty.
         </p>
         <button class="learn" id="l2">Learn More</button>
-        <img src="images/WhatsApp Image 2020-07-19 at 9.23.22 AM.svg" id="im2" alt="">
+        <img src="public/WhatsApp Image 2020-07-19 at 9.23.22 AM.svg" id="im2" alt="">
 
     </div>
 </div>
