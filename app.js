@@ -58,7 +58,9 @@ app.get("/list_mi.html", function(req, res) {
 app.get("/list_co.html", function(req, res) {
   res.sendFile(__dirname + "/list_co.html");
 });
-
+app.get("/team.html",function(req,res){
+  res.sendFile(__dirname+"/team.html");
+});
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server started on port 3000.");
 });
